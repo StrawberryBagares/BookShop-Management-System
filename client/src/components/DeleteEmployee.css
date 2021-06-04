@@ -1,0 +1,22 @@
+.delete-employee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  /* max-width: 40rem; */
+  height: 100%;
+  gap: 2rem;
+}
+
+.form-delete__control {
+  display: flex;
+  width: 25rem;
+  justify-content: space-between;
+}
+
+.form-delete__control input {
+  border: none;
+  border-bottom: 1px solid var(--grey-color);
+  outline: none;
+}

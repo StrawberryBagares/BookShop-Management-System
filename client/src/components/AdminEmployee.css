@@ -1,0 +1,40 @@
+.form-add__control {
+  display: flex;
+  width: 22rem;
+  justify-content: space-between;
+}
+
+.form-add__control input {
+  border: none;
+  border-bottom: 1px solid var(--grey-color);
+  outline: none;
+}
+
+.form-add__action {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+}
+
+.form-add__action button:first-child {
+  border: none;
+  color: black;
+  background-color: var(--blue-color);
+  padding: 1rem 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  width: 12rem;
+}
+
+.form-add__action a {
+  text-decoration: none;
+  border: none;
+  color: black;
+  background-color: var(--red-color);
+  padding: 1rem 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  width: 12rem;
+}

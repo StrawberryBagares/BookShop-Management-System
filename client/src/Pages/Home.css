@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.home-container h1 {
+  margin-bottom: 2rem;
+}
+
+.home-container__link {
+  text-decoration: none;
+  color: black;
+  background-color: var(--blue-color);
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  width: 12rem;
+}
